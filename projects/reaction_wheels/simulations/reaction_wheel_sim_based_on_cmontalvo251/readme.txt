@@ -1,0 +1,1 @@
+Requires additional files located at https://github.com/cmontalvo251/aerospace/tree/main/adcs_seminar_series

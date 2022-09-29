@@ -1,0 +1,1 @@
+function tile%TILE Tiles figure windowsc = get( 0, 'child' );figs = sort( cell2mat( get( c, 'number') ) );if length(figs) == 0, return; endpos = get( figs(1), 'position' );for i=2:length( figs ),	if strcmp( get( figs(i), 'resize' ), 'on' ),		pos = pos + [20 -20 0 0];		set( figs(i), 'position', pos );	endend
